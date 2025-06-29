@@ -16,8 +16,8 @@ function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-white shadow sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+    <nav className="bg-gray-100 shadow sticky top-0 z-50">
+      <div className="max-w-6xl mx-auto px-3 py-3 flex justify-between items-center">
         {/* Logo */}
         <h1 className="text-4xl font-bold text-blue-600">Mtew.</h1>
 

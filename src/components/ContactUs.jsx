@@ -28,8 +28,11 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="flex justify-center py-20 pt-8 px-4 bg-white" id="contact">
-      <div className="w-full max-w-6xl bg-gradient-to-b from-blue-300 to-white rounded-xl p-8 md:flex">
+    <div
+      className="flex justify-center py-20 pt-8 px-4 bg-white  "
+      id="contact"
+    >
+      <div className="w-full max-w-6xl bg-gradient-to-b from-blue-300 border border-gray-200 to-white rounded-xl p-8 md:flex drop-shadow-lg">
         {/* Left Panel */}
         <div className="md:w-1/2 text-gray-800 space-y-4 mb-6 md:mb-0 md:pr-8 drop-shadow-sm">
           <h2 className="text-3xl font-bold text-blue">Contact us</h2>
